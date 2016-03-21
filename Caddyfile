@@ -1,0 +1,12 @@
+http://new-greencharters.aydo.com:8337 {
+    bind 0.0.0.0
+    gzip
+    root www.new-greencharters.com/en
+    git {
+       repo git@github.com:codescalers/www-new-greencharters.git
+       interval 300
+       key ../keys/id_rsa
+       path ../..
+       then hugo -s www.new-greencharters.com
+    }
+}
