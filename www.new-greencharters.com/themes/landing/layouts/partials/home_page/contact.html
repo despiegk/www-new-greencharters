@@ -1,0 +1,24 @@
+
+<!-- Content Block
+      ============================================ -->
+
+      {{ range $element :=  .Data.Pages }}
+                  {{ if eq .Section "home" }}
+                      {{ if eq .Title "contact" }}
+     <!-- Contact -->
+      <section id="contact" class="main style3 secondary">
+        <div class="content container">
+          <header>
+            <h2>{{.Params.head_title}}</h2>
+            <p>{{.Params.disc}}</p>
+          </header>
+          <div class="box container 75%">
+
+          {{.Content}}
+
+          </div>
+        </div>
+      </section>
+{{end}}
+{{end}}
+{{end}}

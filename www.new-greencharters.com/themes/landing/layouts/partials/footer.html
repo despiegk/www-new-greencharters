@@ -4,98 +4,28 @@
       =================================================== -->
       {{ range $element :=  $.Site.Pages }}
         {{ if eq .Section "home" }}
-          {{ if eq .Title "footer_box" }}
-            <footer class="footer-block">
+          {{ if eq .Title "footer" }}
+            <!-- Footer -->
+      <footer id="footer">
 
-              <!-- Container -->
-              <div class="container main clearfix">
+        <!-- Icons -->
+          <ul class="actions">
+            <li><a href="{{.Params.icon1_link}}" class="icon {{.Params.icon1}}"><span class="label">{{.Params.icon1_name}}</span></a></li>
+            <li><a href="{{.Params.icon2_link}}" class="icon {{.Params.icon2}}"><span class="label">{{.Params.icon2_name}}</span></a></li>
+            <li><a href="{{.Params.icon3_link}}" class="icon {{.Params.icon3}}"><span class="label">{{.Params.icon3_name}}</span></a></li>
+            <li><a href="{{.Params.icon4_link}}" class="icon {{.Params.icon4}}"><span class="label">{{.Params.icon4_name}}</span></a></li>
+            <li><a href="{{.Params.icon5_link}}" class="icon {{.Params.icon5}}"><span class="label">{{.Params.icon5_name}}</span></a></li>
+            <li><a href="{{.Params.icon6_link}}" class="icon {{.Params.icon6}}"><span class="label">{{.Params.icon6_name}}</span></a></li>
+          </ul>
 
-                <!-- Brand -->
-                <div class="brand-col">
-                  <div class="brand">
-                    <img src="{{.Params.footer_logo}}" alt="logo"/>
-                  </div>
-                </div>
-                <!-- /Brand -->
+        <!-- Menu -->
+          <ul class="menu">
+            <li>&copy; {{.Params.company_name}}</li><li>{{.Params.company_slogan}}</li>
+          </ul>
 
-                <!-- Links -->
-                <div class="links-col">
-                  <!-- Row -->
-                  <div class="row-fluid">
-                    <!-- Col -->
-                    <div class="col-xs-6 col-sm-3 col-md-3 col-md-offset-3">
-                      <h5>{{ .Params.first_section}}</h5>
-                      <ul class="v-links">
-                        <li><a href="{{.Params.first_section_link1}}">{{.Params.first_section_title1}}</a></li>
-                        <li><a href="{{.Params.first_section_link2}}">{{.Params.first_section_title2}}</a></li>
-                        <li><a href="{{.Params.first_section_link3}}">{{.Params.first_section_title3}}</a></li>
-                        <li><a href="{{.Params.first_section_link4}}">{{.Params.first_section_title4}}</a></li>
-                      </ul>
-                    </div>
-                    <!-- Col -->
-
-                    <!-- Col -->
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                      <h5>{{ .Params.second_section}}</h5>
-                      <ul class="v-links">
-                        <li><a href="{{.Params.second_section_link1}}">{{.Params.second_section_title1}}</a></li>
-                        <li><a href="{{.Params.second_section_link2}}">{{.Params.second_section_title2}}</a></li>
-                        <li><a href="{{.Params.second_section_link3}}">{{.Params.second_section_title3}}</a></li>
-                        <li><a href="{{.Params.second_section_link4}}">{{.Params.second_section_title4}}</a></li>
-                        <li><a href="{{.Params.second_section_link5}}">{{.Params.second_section_title5}}</a></li>
-                        <li><a href="{{.Params.second_section_link6}}">{{.Params.second_section_title6}}</a></li>
-                      </ul>
-                    </div>
-                    <!-- /Col -->
-
-                    <!-- Col -->
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                      <h5>member</h5>
-                      <ul class="v-links">
-                        <li><a href="{{.Params.third_section_link1}}">{{.Params.third_section_title1}}</a></li>
-                        <li><a href="{{.Params.third_section_link2}}">{{.Params.third_section_title2}}</a></li>
-                        <li><a href="{{.Params.third_section_link3}}">{{.Params.third_section_title3}}</a></li>
-                        <li><a href="{{.Params.third_section_link3}}">{{.Params.third_section_title4}}</a></li>
-                      </ul>
-                    </div>
-                    <!-- /Col -->
-
-                    <!-- Col -->
-                    <!--
-                    <div class="col-xs-6 col-sm-3 col-md-3 newsletter">
-                      <h5>newsletter</h5>
-                      <form>
-                        <input type="text" class="form-control" placeholder="Email Address">
-                        <button class="btn btn-primary" type="button">get newsletter</button>
-                      </form>
-                    </div>
-                  -->
-                    <!-- /Col -->
-                 </div>
-                 <!-- /Row -->
-                </div>
-                <!-- /Links -->
-
-              </div>
-              <!-- /Container ->
-
-              <!-- Bottom -->
-              <div class="bottom">
-                <!-- Container -->
-                <div class="container">
-                  <span class="copy-text">&copy; 2016 GreenIT.</span>
-
-                </div>
-                <!-- /Container -->
-              </div>
-              <!-- /Bottom -->
-
-
-            </footer>
-            <!-- JAVASCRIPT FILES -->
+      </footer>
 
             {{end}}
         {{end}}
       {{end}}
-            <!-- /Footer
-            =================================================== -->
+
