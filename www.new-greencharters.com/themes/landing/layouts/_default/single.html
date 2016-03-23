@@ -1,42 +1,63 @@
 {{ partial "head.html" . }}
+<body>
+{{ partial "header.html" . }}
+<style type="text/css">
 
-	<body class="no-trans front-page transparent-header ">
-	    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
-	        <div class="page-wrapper">
-			{{ partial "header.html" . }}
-				<div id="wrap">
-				
-					<section class="page-title">
-				<div class="container">
+html {
+  position: relative !important;
+  min-height: 100% !important;
+  height: auto !important;
+}
+body {
 
-					<header>
+}
+footer {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100% !important;
 
-						<ul class="breadcrumb">
-							<li><a href="/">Home</a></li>
-						<li class="active">{{title .Section}}</li>
-						</ul>
+}
 
-						<h2>
-							{{ .Title }}
-						</h2>
+</style>
+<section id="work" class="main style3 primary">
+        <div class="content container">
+          <header>
+            <h2>{{ .Title }}</h2>
 
-					</header>
+            <div class="container 75% ">
+              <!-- <div class="row 0% images">
+                <div class="3u 12u(mobile)"><img class="internal_pic" src="{{.Params.pic1}}" title="" alt=""></div>
+                <div class="3u 12u(mobile)"><img class="internal_pic" src="{{.Params.pic2}}" title="" alt=""></div>
+                <div class="3u 12u(mobile)"><img class="internal_pic" src="{{.Params.pic3}}" title="" alt=""></div>
+                <div class="3u 12u(mobile)"><img class="internal_pic" src="{{.Params.pic4}}" title="" alt=""></div>
+              </div> -->
+              <div class="row">
+              	<div class="text-center intenal-list">
+	              	<ul>
+		              	<li><img class="internal_pic" src="{{.Params.pic1}}"></li>
+		              	<li><img class="internal_pic" src="{{.Params.pic2}}"></li>
+		              	<li><img class="internal_pic" src="{{.Params.pic3}}"></li>
+		              	<li><img class="internal_pic" src="{{.Params.pic4}}"></li>	              		
+	              	</ul>
+              	</div>
+              	
+              </div>
+              
+            </div>
 
-				</div>			
-			</section>
 
 
-				<div class="main-container" id="main">
-					<div class="container page-container">
-						<p>{{ .Content }}</p>
-					</div>
-				</div>
-			</div>
-			{{ partial "footer.html" . }}
-			</div>
 
-	</body>
-	<script src="/js/jquery-latest.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/uikit.min.js"></script>
+            <p>{{ .Content }}</p>
+          </header>
+
+          
+            
+
+        </div>
+      </section>
+{{ partial "footer.html" . }}
+</body>
 </html>
+
+
