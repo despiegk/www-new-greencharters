@@ -1,4 +1,4 @@
-http://new-greencharters.aydo.com:8337 {
+http://new-greencharters.aydo.com:4529 {
     bind 0.0.0.0
     gzip
     root www.new-greencharters.com/en
