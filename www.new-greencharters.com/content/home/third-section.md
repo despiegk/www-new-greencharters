@@ -6,7 +6,7 @@ head_title = "My Work"
 disc = "Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae."
 
 
-pic1_link = "images/fulls/01.jpg"
+pic1_link = "images/thumbs/01.jpg"
 pic1 = "images/thumbs/01.jpg"
 
 pic2_link = "images/fulls/02.jpg"
