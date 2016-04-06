@@ -3,7 +3,7 @@
 #intro p {background: rgba(0,0,0,0.3);}
 .main.style3 {text-align: center; padding: 3em 0 6em 0;}
 .internal_pic {height: 190px;margin-top: 25px;width: 251px;}
-.intenal-list {}
-.intenal-list li {
-    display: inline;
-}
+.intenal-list li {display: inline;}
+.title-banner {padding: 66px 0;background: url(/images/banner2.jpg) center center no-repeat;color: #FFF;margin-top: 1.2em;}
+.title-banner h2 { color: #FFF}
+.title-banner header { margin-bottom: 0 !important;}

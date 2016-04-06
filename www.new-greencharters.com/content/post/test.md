@@ -7,10 +7,6 @@ pic2 = "/images/thumbs/02.jpg"
 pic3 = "/images/thumbs/03.jpg"
 pic4 = "/images/thumbs/04.jpg"
 +++
-
-### Test Charters
-
-
 Discover our new BVI catamaran charter yacht. This 54’ Nautitech charter catamaran combines luxurious accommodations, high performance sailing, and leading edge green technology for the smallest carbon footprint possible. With the state of the art lithium-ion battery, LED lighting, wind generator, many solar panels, and ultra-silent high output generator, the hush of dawn can be heard even if the AC is running.
 
 Three guest queen suites each fully air-conditioned with private bath/electric toilet/shower stall and tablet controlled TV, music and movies. There are numerous lounging areas to select from - the forward trampolines, the cockpit with hardtop cover and an electric moon roof to let in the breeze or the stars. and an enormous main salon with lots of cushy seating.
