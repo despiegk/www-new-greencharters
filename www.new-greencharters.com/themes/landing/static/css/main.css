@@ -1143,24 +1143,8 @@
 		}
 
 	}
-    @media (max-width: 1024px) {
 
-    	#header {
-		position: fixed;
-		z-index: 10000;
-		left: 0;
-		top: 0;
-		width: 100%;
-		background: #fff;
-		/* background: rgba(255, 255, 255, 0.95); */
-		height: 4.2em;
-		line-height: 3em;
-		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
-	}
-
-
-    }
-
+    
 	@media screen and (max-width: 1000px) {
 
 		.row > * {
@@ -2837,7 +2821,7 @@
 		width: 100%;
 		background: #fff;
 		/* background: rgba(255, 255, 255, 0.95); */
-		height: 4.2em;
+		/*height: 4.2em;*/
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
@@ -3227,6 +3211,9 @@
 				left: -40%;
 			}
 
+          #header{
+          	height: 4.2em;}
+          }
 	}
 
 /* Normal */
@@ -3322,6 +3309,12 @@
 				}
 
 	}
+
+/* I Pad */
+@media screen and (max-width: 1024px) {
+    	#header {height: 5em;}
+}
+
 
 /* Mobile */
 
