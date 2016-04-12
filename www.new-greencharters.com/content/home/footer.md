@@ -26,7 +26,7 @@ icon6_link = "#"
 icon6 = "fa-instagram"
 icon6_name = "Instagram"
 
-company_name = "Untitled"
+company_name = "2016 Green Charters."
 company_slogan = "Design:HTML5 UP"
           
 +++

@@ -9,7 +9,7 @@ disc = "Enjoy a splendid sailing holiday in full luxury! The yacht is always ren
 
 
 
-<form action="//formspree.io/magedf@codescalers.com" method="post" action="#">
+<form action="//formspree.io/info@greencharters.com" method="post" action="#">
 <div class="row 50%">
   <div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
   <div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
