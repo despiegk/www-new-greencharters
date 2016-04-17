@@ -1,6 +1,6 @@
 +++
 #Don't remove title!
-title = "third-section"
+title = "gallery_images"
 
 head_title = "My Work"
 disc = "Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae."
@@ -26,6 +26,8 @@ pic5 = "images/thumbs/05.jpg"
 
 pic6_link = "images/fulls/06.jpg"
 pic6 = "images/thumbs/06.jpg"
+
+
 
 
 +++
